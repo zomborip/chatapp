@@ -1,5 +1,5 @@
 # Project
-This is a simple chat app using **Expres** and **socketio** with **tailwindcss** and **heroicons**, without using a JavaScript framework. Later **MongoDB** and **Vue** will be used.
+This is a simple chat app using **Expres** and **socketio**, with **tailwindcss** and **heroicons**, without using a JavaScript framework. Later **MongoDB** and **Vue** will be used.
 
 # ToDoList
 - FrontEnd
