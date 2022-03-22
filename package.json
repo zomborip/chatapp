@@ -16,6 +16,7 @@
     "http": "^0.0.1-security",
     "socket.io": "^4.4.1",
     "socket.io-client": "^4.4.1",
+    "tailwind-proj": "github:zomborip/chatapp",
     "tailwindcss": "^3.0.23"
   },
   "devDependencies": {
