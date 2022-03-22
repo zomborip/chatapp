@@ -3,9 +3,9 @@ This is a simple chat app using **Expres** and **socketio** with **tailwindcss**
 
 # ToDoList
 - FrontEnd
-    - create simple js
-    - connect to backend
-    - update dom
+    - ~~create simple js~~
+    - ~~connect to backend~~
+    - ~~update dom~~
     - smooth scrolling
     - loginpanel
     - tooltips
@@ -13,18 +13,14 @@ This is a simple chat app using **Expres** and **socketio** with **tailwindcss**
     - Vue
     - 
 - BackEnd
-    - create simple server
-    - connectable
+    - ~~create simple server~~
+    - ~~connectable~~
     - database implement (mongo)
     - auth implement
-    - socket implement 
+    - ~~socket implement~~ 
     - 
 - UI
-    - responsive
+    - ~~responsive~~
     - animations
     - relative positins
     -
-
-# Issues / Buggs
-- scroll bugg (ms edge)
-
