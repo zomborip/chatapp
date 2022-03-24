@@ -6,9 +6,9 @@ function getRandomInt(max) {
 let ME = getRandomInt(10);
 let CH = "red";
 const CICONS = [
-    `<div class="rounded-full bg-red-400 w-10 h-10"></div>`,
-    `<div class="rounded-full bg-green-400 w-10 h-10"></div>`,
-    `<div class="rounded-full bg-blue-400 w-10 h-10"></div>`,
+    `<div class="rounded-full bg-red-700 w-10 h-10"></div>`,
+    `<div class="rounded-full bg-green-700 w-10 h-10"></div>`,
+    `<div class="rounded-full bg-blue-700 w-10 h-10"></div>`,
 ]
 const ICONS = [
     `<svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path></svg>`,
@@ -25,9 +25,9 @@ const ICONS = [
 
 ];
 const INFO = {
-    "red": {chname: "Red Channel", icon: CICONS[0]},
-    "green": {chname: "Green Channel", icon: CICONS[1]},
-    "blue": {chname: "Blue Channel", icon: CICONS[2]},
+    "red": {chname: "Red Group", icon: CICONS[0]},
+    "green": {chname: "Green Group", icon: CICONS[1]},
+    "blue": {chname: "Blue Group", icon: CICONS[2]},
 
 }
 const TABLE = document.getElementById("msgtable");
