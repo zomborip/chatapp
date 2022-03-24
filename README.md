@@ -8,7 +8,7 @@ This is a simple chat app using **Expres** and **socketio**, with **tailwindcss*
     - ~~update dom~~
     - smooth scrolling
     - loginpanel
-    - tooltips
+    - ~~tooltips~~
     - user manage
     - Vue
     - 
