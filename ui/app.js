@@ -130,9 +130,14 @@ function getch(chname) {
 // ----------------------------[Listenings, Init]-----------------------------------
 
 //Listen to new msg
-socket.on("msg", ({"msg": m, "id": i, "ch": CH})=>{
-    build(m, i);
-    scroll()
+socket.on("msg", ({"msg": m, "id": i, "ch": c})=>{
+    if (c == CH) {
+        build(m, i);
+        scroll()
+    } else {
+        console.log("Unhandeled message in other channel");
+    }
+    
 });
 //Init
 document.getElementById("uid").innerHTML = ICONS[ME];
